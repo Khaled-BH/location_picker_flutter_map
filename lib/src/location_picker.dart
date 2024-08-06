@@ -325,7 +325,7 @@ class _FlutterLocationPickerState extends State<FlutterLocationPicker>
   final Location location = Location();
   final FocusNode _focusNode = FocusNode();
   List<OSMdata> _options = <OSMdata>[];
-  LatLong initPosition = const LatLong(30.0443879, 31.2357257);
+  LatLong initPosition = const LatLong(25.4052, 55.5136);
   Timer? _debounce;
   bool isLoading = true;
   late void Function(Exception e) onError;
